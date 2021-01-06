@@ -1,0 +1,284 @@
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #202020;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+   <style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 8px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+
+
+<a href="https://deltamodelrocketswebstore-vertical-nav-edition.belizairebr25.repl.co/Purchase" class="button">Light mode</a>
+  <li><a href="Purchase">Products & purchase</a></li>
+  <li><a href="contact.html">Contact us</a></li>
+  <li><a href="community">Community & Forums</a></li>
+
+  <li>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: arial;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: arial;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #404040;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: arial;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: arial;
+  color: white;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-family: arial;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+<span style="font-family:Arial">
+
+
+<div class="dropdown">
+  <button class="dropbtn"> FAQ and about us</button>
+  <div class="dropdown-content">
+  <a href="FAQ">FAQ</a>
+  <a href="Charities">Charities</a>
+  <a href="About us">About us</a>
+  </div>
+</div>
+
+
+
+</body>
+</span>
+</html>
+
+</li>
+</ul>
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+      <style>
+        *{
+            text-align: left;
+        }
+
+        </style>
+  <html>
+
+  <span style="font-family:Arial">
+    <h1>
+      Buying our rockets
+    </h1>
+        <p>
+        Our Jupiter rocket was designed with quality and safety in mind. This rocket brings customizability to the table. This rocket was intended for usage of ages 12-70 bringing a fun family experience to all. This rocket is capable of being ordered in different height variants so if you want a big rocket, you can get a big rocket and the same for a small rocket. All Jupiter rockets 6ft and under use three 24mm Estes Motors, that packs a punch, the motor holder tilts the motors outward for a more stable and safe flight. We will most likely make all plastic parts in house.  We have take everything into consideration, so if you follow the instructions; all you'll have to worry about is getting a good angle for the flight.
+      </p>
+      <h3>
+        We will have an order form on this website (Coming soon)
+      </h3>
+            <p>
+              <div>This buisness is still in development.</div>
+              Expect some changes and your orders are highley likely to arrive from April-May 2021.
+              Do not worry becuase the best time for luanching rockets is between May and November.
+            </p>
+
+          <!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #202020;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+<div>
+  <p>
+    Please visit our merch store to buy cool, funny, rocket themed appearl and accesories!
+  </p>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Our merch store!</button>
+  <div class="dropdown-content">
+  <a href="https://www.bonfire.com/store/bricians-booming-masks/" target="_blank">click here to go to our merch page</a>
+
+  </div>
+</div>
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #202020;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+<div>
+  <p>
+    Please visit our merch store to buy cool, funny, rocket themed appearl and accesories!
+  </p>
+</div>
+
+
+
+
+
+</body>
+</html>
+
+
+
+        
+            
+
+
+
