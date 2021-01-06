@@ -1,4 +1,15 @@
-
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
+<style>
+body {
+  margin: 0;
+  font-family: arial;
+  background: #000000;
+  color: white;
+    text-align: left;
 }
 
 ul {
