@@ -4,16 +4,6 @@
 <html>
 <head>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-349X1M4WPR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-349X1M4WPR');
-</script>
-
 
 
   <link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
@@ -67,6 +57,7 @@ li a:hover:not(.active) {
 </head>
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
+  <!--
    <style>
 .button {
   background-color: #4CAF50;
@@ -87,9 +78,10 @@ li a:hover:not(.active) {
 
 
 <a href="https://deltamodelrocketswebstore-vertical-nav-edition.belizairebr25.repl.co/" class="button">Light mode</a>
+-->
   <li><a href="Purchase">Products & purchase</a></li>
   <li><a href="contact.html">Contact us</a></li>
-  <li><a href="community">community & Forums</a></li>
+  <li><a href="community">Comunity & Forums</a></li>
 
   <li>
 <!DOCTYPE html>
@@ -143,6 +135,7 @@ li a:hover:not(.active) {
 </style>
 </head>
 <body>
+<a href="https://Blog.nrsiscience.repl.co" class="button">Blog</a>
 <span style="font-family:Arial">
 
 
@@ -191,12 +184,18 @@ li a:hover:not(.active) {
 </style>
 </head>
 <body>
+<h1>
+Community and Forums
+</h1>
+<h3>
+Please use the links below to acess our community
+</h3>
 
 <a href="https://desk.zoho.com/portal/nrsidelta/en/signin" class="button">Sign In</a>
 
 </body>
 </html>
-<div>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -205,24 +204,32 @@ li a:hover:not(.active) {
   background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  fornt-family: arial;
 }
 </style>
 </head>
 <body>
+<span style="font-family:arial">
 
-<a href="https://desk.zoho.com/portal/nrsidelta/en/signup">Sign up</a>
+<a href="https://desk.zoho.com/portal/nrsidelta/en/signup" class="button">Sign up</a>
 
 </body>
-</div>
+</span>
 </html>
-
-
+<div>
+<h2>
+<a href="game.html">game</a>
+</h2>
+<h5>
+this game ys borrowed from: Shaikh Shamaeel, at sololearn.
+big thanks. this game will be replaced with an orginal soon.
+</div
 
 

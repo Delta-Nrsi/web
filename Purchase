@@ -69,6 +69,7 @@ li a:hover:not(.active) {
 
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
+  <!--
    <style>
 .button {
   background-color: #4CAF50;
@@ -83,16 +84,18 @@ li a:hover:not(.active) {
   cursor: pointer;
 }
 </style>
+<a href="https://Blog.nrsiscience.repl.co" class="button">Blog</a>
 </head>
 <body>
-
+<a href="https://Blog.nrsiscience.repl.co" class="button">Blog</a>
 
 
 <a href="https://deltamodelrocketswebstore-vertical-nav-edition.belizairebr25.repl.co/Purchase" class="button">Light mode</a>
+-->
   <li><a href="Purchase">Products & purchase</a></li>
   <li><a href="contact.html">Contact us</a></li>
   <li><a href="community">Community & Forums</a></li>
-
+<li><a href="https://Blog.nrsiscience.repl.co" class="button">Blog</a></li>
   <li>
 <!DOCTYPE html>
 <html>
@@ -161,6 +164,7 @@ li a:hover:not(.active) {
 
 
 </body>
+
 </span>
 </html>
 

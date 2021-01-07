@@ -68,6 +68,7 @@ li a:hover:not(.active) {
 <!--nav-->
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
+  <!--
      <style>
 .button {
   background-color: #4CAF50;
@@ -88,6 +89,7 @@ li a:hover:not(.active) {
 
 
 <a href="https://deltamodelrocketswebstore-vertical-nav-edition.belizairebr25.repl.co/Charities" class="button">Light mode</a>
+-->
   <li><a href="Purchase">Products & purchase</a></li>
   <li><a href="contact.html">Contact us</a></li>
   <li><a href="community">Community & Forums</a></li>
@@ -145,6 +147,7 @@ li a:hover:not(.active) {
 </style>
 </head>
 <body>
+<a href="https://Blog.nrsiscience.repl.co" class="button">Blog</a>
 <span style="font-family:Arial">
 
 
@@ -210,3 +213,4 @@ li a:hover:not(.active) {
         	<h4><a href="index.html" 
 
 
+console.log("Hey, if your seeing this you have probably pressed ctrl shift i, or veiwed the page scource. We are happy you found this. If you have any web dev sugesstions please visit our contact us page and submit a form with your sugesstion. Thank you!")
