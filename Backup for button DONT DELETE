@@ -1,104 +1,826 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-<style>
-.button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  font-family: arial;
-}
-
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #4CAF50;
-}
-
-.button1:hover {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.button2 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #008CBA;
-}
-
-.button2:hover {
-  background-color: #008CBA;
-  color: white;
-}
-
-</style>
-</head>
-<body>
+ <head>
+      <link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
+  <title>Delta Model Rockets - Game</title>
 <span style="font-family:arial">
-<h1>Community Page</h1>
+ </head> 
 
-<p>Use the links below to access our help center/community page!</p>
+ <body>
+  
+   <div id = all>
+​<h1 id = "header" >Launch Your Rocket🚀 🚀 🚀 🚀 🚀 🚀</h1>
+<p id = "instructions">🖐️Welcome to The Rocket 🚀🚀🚀🚀🚀Game! <br> work to start generating money💰. Once you have enough money you can purchase a worker👷‍♂️ or factory🏭 to work for you. When you build up enough capital start crafting rocket parts untill you have completed the rocket. Once the 🚀rocket🚀 is complete, launch it to win the game. (This message will disapear after you click work 5 times)</p>
+<!--Work-->
+<label>Your money💵: $</label>
+<var id = userMoney>0</var><br>
+<label>Total Production($/s):</label>
+<var id = totalProduction>0</var><br>
+<button id = "work" onclick="work()">Work</button><br>
+<label>Rocket Status:</label>
+<var id = rocketStatus>Not Ready.</var><br>
+<button id = "launchRocket" onclick="launchRocket()">Launch Rocket!</button>
+<label>Price: $</label>
+<var id = launchCost>10000000</var><br>
+<!--Worker-->
+<h3>Worker👷‍♂️:</h3>
+<label>Number of workers:</label>
+<var id = numWorker>0</var><br>
+<button id = "buyWorker" onclick="buyWorker()">Buy Worker</button>
+<label>Price: $</label>
+<var id = workerCost>100</var><br>
+<label>Current Production($/s): </label>
+<var id = workerProduction>0</var><br>
+<!--Factory-->
+<h3>Factory🏭:</h3>
+<label>Number of factories:</label>
+<var id = numFactory>0</var><br>
+<button id = "buyFactory" onclick="buyFactory()">Buy Factory</button>
+<label>Price: $</label>
+<var id = factoryCost>1000</var><br>
+<label>Current Production($/s): </label>
+<var id = factoryProduction>0</var><br>
+<!--Kilofactory-->
+<h3>🏭Kilofactory🏭:</h3>
+<label>Number of kilofactories:</label>
+<var id = numKilofactory>0</var><br>
+<button id = "buyKilofactory" onclick="buyKilofactory()">Buy Kilofactory</button>
+<label>Price: $</label>
+<var id = kilofactoryCost>10000</var><br>
+<label>Current Production($/s): </label>
+<var id = kilofactoryProduction>0</var><br>
+<!--Megafactory-->
+<h3>🏭🏭Megafactory🏭🏭:</h3>
+<label>Number of megafactories:</label>
+<var id = numMegafactory>0</var><br>
+<button id = "buyMegafactory" onclick="buyMegafactory()">Buy Megafactory</button>
+<label>Price: $</label>
+<var id = megafactoryCost>100000</var><br>
+<label>Current Production($/s): </label>
+<var id = megafactoryProduction>0</var><br>
+<!--Rocket Construction-->
+<h3>Rocket Construction:</h3>
+<label>Parts Required:</label>
+<var id = nosecone>Nose Cone,</var>
+<var id = cockpit>Cockpit,</var>
+<var id = fuel>Fuel,</var>
+<var id = frame>Frame,</var>
+<var id = oxidizer>Oxidizer,</var>
+<var id = pumps>Pumps,</var>
+<var id = nozzle>Nozzle,</var>
+<var id = fins>Fins</var><br>
+<button id = "buyNosecone" onclick="buyNosecone()">Buy Nose Cone</button>
+<label>Price: $</label>
+<var id = noseconePrice>1000000</var><br>
+<button id = "buyCockpit" onclick="buyCockpit()">Buy Cockpit</button>
+<label>Price: $</label>
+<var id = cockpitPrice>1500000</var><br>
+<button id = "buyFuel" onclick="buyFuel()">Buy Fuel</button>
+<label>Price: $</label>
+<var id = fuelPrice>2000000</var><br>
+<button id = "buyFrame" onclick="buyFrame()">Buy Frame</button>
+<label>Price: $</label>
+<var id = framePrice>2500000</var><br>
+<button id = "buyOxidizer" onclick="buyOxidizer()">Buy Oxidizer</button>
+<label>Price: $</label>
+<var id = oxidizerPrice>3000000</var><br>
+<button id = "buyPumps" onclick="buyPumps()">Buy Pumps</button>
+<label>Price: $</label>
+<var id = pumpsPrice>3500000</var><br>
+<button id = "buyNozzle" onclick="buyNozzle()">Buy Nozzle</button>
+<label>Price: $</label>
+<var id = nozzlePrice>4000000</var><br>
+<button id = "buyFins" onclick="buyFins()">Buy Fins</button>
+<label>Price: $</label>
+<var id = finsPrice>4500000</var><br>
 
 
-
-<div>
-<html>
-<head>
+  <script src="script.js"></script>
+   </div>
+ </body>
+</html>
 <style>
-a:link, a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  body{
+  background-color: cyan;
+ 
 }
-
-a:hover, a:active {
-  background-color: red;
-  font-family: arial;
+#all{
+  width: 300px; 
+    margin: 0 auto; 
 }
 </style>
-</head>
-<body>
-<span style="font-family:arial">
-<a href="https://desk.zoho.com/portal/nrsidelta/en/signin" target="_blank">Sign In</a>
+<script>
+  
+
+//VAR DECLARATION
+
+//BASIC VARS
+
+var basicIncome = 1;
+
+var workMultiplier = 1;
+
+var userMoney = 0;
+
+//WORKER VARS
+
+var numWorker = 0;
+
+var workerIncome = 10;
+
+var workerCost = 100;
+
+//FACTORY VARS
+
+var numFactory = 0;
+
+var factoryIncome = 100;
+
+var factoryCost = 1000;
+
+//KILOFACTORY VARS
+
+var numKilofactory = 0;
+
+var kilofactoryIncome = 1000;
+
+var kilofactoryCost = 10000;
+
+//MEGAFACTORY VARS
+
+var numMegafactory = 0;
+
+var megafactoryIncome = 10000;
+
+var megafactoryCost = 100000;
+
+//ROCKETCONSTRUCTION VARS
+
+var nosecone = false;
+
+var cockpit = false;
+
+var fuel = false;
+
+var frame = false;
+
+var oxidizer = false;
+
+var pumps = false;
+
+var nozzle = false;
+
+var fins = false;
+
+var readyToLaunch = false;
+
+//WORK
+
+function work() {
+
+ userMoney = userMoney +
+  basicIncome * workMultiplier;
+
+ document.getElementById("userMoney")
+  .innerHTML = userMoney;
+
+ if (userMoney == 5) {
+
+  document.getElementById(
+   "instructions").innerHTML = "";
+
+ }
+
+}
+
+//WORKER AND FACTORIES
+
+//WORKER
+
+function worker() {
+
+ userMoney = userMoney +
+  workerIncome * numWorker;
+
+ document.getElementById("userMoney")
+  .innerHTML = userMoney;
+
+}
+
+function buyWorker() {
+
+ if (userMoney < workerCost) {
+
+  alert(
+   "You dont have enough for a worker You have $" +
+   userMoney + " you need $" +
+   workerCost + ".");
+
+  return;
+
+ }
+
+ numWorker = numWorker + 1;
+
+ userMoney = userMoney - workerCost;
+
+ workerCost = Math.round((
+  workerCost * 1.25));
+
+ document.getElementById(
+   "workerCost").innerHTML =
+  workerCost;
+
+ document.getElementById("userMoney")
+  .innerHTML = userMoney;
+
+ document.getElementById(
+   "workerProduction").innerHTML =
+  numWorker * workerIncome;
+
+ document.getElementById("numWorker")
+  .innerHTML = numWorker;
+
+ totalProduction();
+
+}
+
+//FACTORY
+
+function factory() {
+
+ userMoney = userMoney +
+  factoryIncome * numFactory;
+
+ document.getElementById("userMoney")
+  .innerHTML = userMoney;
+
+}
+
+function buyFactory() {
+
+ if (userMoney < factoryCost) {
+
+  alert(
+   "You dont have enough for a factory. You have $" +
+   userMoney + " you need $" +
+   factoryCost + ".");
+
+  return;
+
+ }
+
+ numFactory = numFactory + 1;
+
+ userMoney = userMoney - factoryCost;
+
+ factoryCost = Math.round((
+  factoryCost * 1.25));
+
+ document.getElementById(
+   "factoryCost").innerHTML =
+  factoryCost;
+
+ document.getElementById("userMoney")
+  .innerHTML = userMoney;
+
+ document.getElementById(
+   "factoryProduction").innerHTML =
+  numFactory * factoryIncome;
+
+ document.getElementById(
+   "numFactory").innerHTML =
+  numFactory;
+
+ totalProduction();
+
+}
+
+//KILOFACTORY
+
+function kilofactory() {
+
+ userMoney = userMoney +
+  kilofactoryIncome * numKilofactory;
+
+ document.getElementById("userMoney")
+  .innerHTML = userMoney;
+
+}
+
+function buyKilofactory() {
+
+ if (userMoney < kilofactoryCost) {
+
+  alert(
+   "You dont have enough for a kilofactory. You have $" +
+   userMoney + " you need $" +
+   kilofactoryCost + ".");
+
+  return;
+
+ }
+
+ numKilofactory = numKilofactory + 1;
+
+ userMoney = userMoney -
+  kilofactoryCost;
+
+ kilofactoryCost = Math.round((
+  kilofactoryCost * 1.25));
+
+ document.getElementById(
+   "kilofactoryCost").innerHTML =
+  kilofactoryCost;
+
+ document.getElementById("userMoney")
+  .innerHTML = userMoney;
+
+ document.getElementById(
+   "kilofactoryProduction")
+  .innerHTML = numKilofactory *
+  kilofactoryIncome;
+
+ document.getElementById(
+   "numKilofactory").innerHTML =
+  numKilofactory;
+
+ totalProduction();
+
+}
+
+//MEGAFACTORY
+
+function megafactory() {
+
+ userMoney = userMoney +
+  megafactoryIncome * numMegafactory;
+
+ document.getElementById("userMoney")
+  .innerHTML = userMoney;
+
+}
+
+function buyMegafactory() {
+
+ if (userMoney < megafactoryCost) {
+
+  alert(
+   "You dont have enough for a megafactory. You have $" +
+   userMoney + " you need $" +
+   megafactoryCost + ".");
+
+  return;
+
+ }
+
+ numMegafactory = numMegafactory + 1;
+
+ userMoney = userMoney -
+  megafactoryCost;
+
+ megafactoryCost = Math.round((
+  megafactoryCost * 1.25));
+
+ document.getElementById(
+   "megafactoryCost").innerHTML =
+  megafactoryCost;
+
+ document.getElementById("userMoney")
+  .innerHTML = userMoney;
+
+ document.getElementById(
+   "megafactoryProduction")
+  .innerHTML = numMegafactory *
+  megafactoryIncome;
+
+ document.getElementById(
+   "numMegafactory").innerHTML =
+  numMegafactory;
+
+ totalProduction();
+
+}
+
+//ROCKET CONSTRUCTION
+
+//NOSECONE
+
+function buyNosecone() {
+
+ if (userMoney < 1000000) {
+
+  alert(
+   "You dont have enough for a Nose Cone. You have " +
+   userMoney + " you need 1000000.");
+
+  return;
+
+ }
+
+ if (nosecone) {
+
+  alert(
+   "You already have a Nose Cone.");
+
+  return;
+
+ }
+
+ nosecone = true;
+
+ userMoney = userMoney - 1000000;
+
+ document.getElementById("nosecone")
+  .innerHTML = "";
+
+ document.getElementById(
+   "noseconePrice").innerHTML =
+  "PURCHASED";
+
+ checkLaunchStatus();
+
+}
+
+//COCKPIT
+
+function buyCockpit() {
+
+ if (userMoney < 1500000) {
+
+  alert(
+   "You dont have enough for a Cockpit. You have " +
+   userMoney + " you need 1500000.");
+
+  return;
+
+ }
+
+ if (cockpit) {
+
+  alert(
+   "You already have a Cockpit.");
+
+  return;
+
+ }
+
+ cockpit = true;
+
+ userMoney = userMoney - 1500000;
+
+ document.getElementById("cockpit")
+  .innerHTML = "";
+
+ document.getElementById(
+   "cockpitPrice").innerHTML =
+  "PURCHASED";
+
+ checkLaunchStatus();
+
+}
+
+//FUEL
+
+function buyFuel() {
+
+ if (userMoney < 2000000) {
+
+  alert(
+   "You dont have enough for Fuel. You have " +
+   userMoney + " you need 2000000.");
+
+  return;
+
+ }
+
+ if (fuel) {
+
+  alert("You already have Fuel.");
+
+  return;
+
+ }
+
+ fuel = true;
+
+ userMoney = userMoney - 2000000;
+
+ document.getElementById("fuel")
+  .innerHTML = "";
+
+ document.getElementById("fuelPrice")
+  .innerHTML = "PURCHASED";
+
+ checkLaunchStatus();
+
+}
+
+//FRAME
+
+function buyFrame() {
+
+ if (userMoney < 2500000) {
+
+  alert(
+   "You dont have enough for a Frame. You have " +
+   userMoney + " you need 2500000.");
+
+  return;
+
+ }
+
+ if (frame) {
+
+  alert("You already have a Frame.");
+
+  return;
+
+ }
+
+ frame = true;
+
+ userMoney = userMoney - 2500000;
+
+ document.getElementById("frame")
+  .innerHTML = "";
+
+ document.getElementById(
+   "framePrice").innerHTML =
+  "PURCHASED";
+
+ checkLaunchStatus();
+
+}
+
+//OXIDIZER
+
+function buyOxidizer() {
+
+ if (userMoney < 3000000) {
+
+  alert(
+   "You dont have enough for an Oxidizer. You have " +
+   userMoney + " you need 3000000.");
+
+  return;
+
+ }
+
+ if (oxidizer) {
+
+  alert(
+   "You already have an Oxidizer.");
+
+  return;
+
+ }
+
+ oxidizer = true;
+
+ userMoney = userMoney - 3500000;
+
+ document.getElementById("oxidizer")
+  .innerHTML = "";
+
+ document.getElementById(
+   "oxidizerPrice").innerHTML =
+  "PURCHASED";
+
+ checkLaunchStatus();
+
+}
+
+//PUMPS
+
+function buyPumps() {
+
+ if (userMoney < 3500000) {
+
+  alert(
+   "You dont have enough for Pumps. You have " +
+   userMoney + " you need 3500000.");
+
+  return;
+
+ }
+
+ if (pumps) {
+
+  alert("You already have Pumps.");
+
+  return;
+
+ }
+
+ pumps = true;
+
+ userMoney = userMoney - 3500000;
+
+ document.getElementById("pumps")
+  .innerHTML = "";
+
+ document.getElementById(
+   "pumpsPrice").innerHTML =
+  "PURCHASED";
+
+ checkLaunchStatus();
+
+}
+
+//NOZZLE
+
+function buyNozzle() {
+
+ if (userMoney < 4000000) {
+
+  alert(
+   "You dont have enough for a Nozzle. You have " +
+   userMoney + " you need 4000000.");
+
+  return;
+
+ }
+
+ if (nozzle) {
+
+  alert(
+   "You already have a Nozzle.");
+
+  return;
+
+ }
+
+ nozzle = true;
+
+ userMoney = userMoney - 4000000;
+
+ document.getElementById("nozzle")
+  .innerHTML = "";
+
+ document.getElementById(
+   "nozzlePrice").innerHTML =
+  "PURCHASED";
+
+ checkLaunchStatus();
+
+}
+
+//FINS
+
+function buyFins() {
+
+ if (userMoney < 4500000) {
+
+  alert(
+   "You dont have enough for Fins. You have " +
+   userMoney + " you need 4500000.");
+
+  return;
+
+ }
+
+ if (fins) {
+
+  alert("You already have Fins.");
+
+  return;
+
+ }
+
+ fins = true;
+
+ userMoney = userMoney - 4500000;
+
+ document.getElementById("fins")
+  .innerHTML = "";
+
+ document.getElementById("finsPrice")
+  .innerHTML = "PURCHASED";
+
+ checkLaunchStatus();
+
+}
+
+//LAUNCH STATUS
+
+function checkLaunchStatus() {
+
+ if (nosecone && cockpit) {
+
+  if (fuel && frame) {
+
+   if (oxidizer && pumps) {
+
+    if (nozzle && fins) {
+
+     readyToLaunch = true;
+
+    }
+
+   }
+
+  }
+
+ }
+
+ if (readyToLaunch) {
+
+  document.getElementById(
+    "rocketStatus").innerHTML =
+   "READY!";
+
+ }
+
+}
+
+//LAUNCH ROCKET
+
+function launchRocket() {
+
+ if (!readyToLaunch) {
+
+  alert("ROCKET NOT READY!");
+
+  return;
+
+ }
+
+ if (userMoney < 10000000) {
+
+  alert(
+   "You dont have enough money to launch the rocket!"
+  );
+
+  return;
+
+ }
+
+ document.getElementById(
+   "rocketStatus").innerHTML =
+  "LAUNCHED!!!";
+
+ document.getElementById("header")
+  .innerHTML =
+  "Rocket Launched Successfully!!! Great Work!";
+
+ document.body.style
+  .backgroundColor = "red";
+
+ alert(
+  "Congrats. YOU HAVE WON THE GAME. Your rocket was launched and will arrive at it's destination soon!"
+ );
+
+
+
+}
+
+//CALCULATE TOTAL PRODUCTION
+
+function totalProduction() {
+
+ var workerProduction = parseInt(
+  document.getElementById(
+   "workerProduction").innerHTML);
+
+ var factoryProduction = parseInt(
+  document.getElementById(
+   "factoryProduction").innerHTML);
+
+ var kilofactoryProduction =
+  parseInt(document.getElementById(
+    "kilofactoryProduction")
+   .innerHTML);
+
+ var megafactoryProduction =
+  parseInt(document.getElementById(
+    "megafactoryProduction")
+   .innerHTML);
+
+ document.getElementById(
+   "totalProduction").innerHTML =
+  workerProduction +
+  factoryProduction +
+  kilofactoryProduction +
+  megafactoryProduction;
+
+
+
+}
+
+//INTERVAL FUNCTIONS
+
+window.setInterval(function() {
+
+ worker();
+
+ factory();
+
+ kilofactory();
+
+ megafactory();
+
+}, 1000);
+
+</script>
 </span>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-a:link, a:visited {
-  background-color: black;
-  color: white;
-  border: 2px solid green;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-    transition-duration: 0.4s;
-  display: inline-block;
-  font-family: arial;
-}
-
-a:hover, a:active {
-  background-color: #4CAF50;or: #4CAF50;
-  color: white; 
-}
-</style>
-</head>
-<body>
-
-<a href="https://desk.zoho.com/portal/nrsidelta/en/signup" target="_blank">Sign Up</a>
-</div>
-</body>
-</html>
