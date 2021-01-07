@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: arial;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<span style="font-family:arial">
+<h1>Community Page</h1>
+
+<p>Use the links below to access our help center/community page!</p>
+
+
+
+<div>
+<html>
+<head>
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+  font-family: arial;
+}
+</style>
+</head>
+<body>
+<span style="font-family:arial">
+<a href="https://desk.zoho.com/portal/nrsidelta/en/signin" target="_blank">Sign In</a>
+</span>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+    transition-duration: 0.4s;
+  display: inline-block;
+  font-family: arial;
+}
+
+a:hover, a:active {
+  background-color: #4CAF50;or: #4CAF50;
+  color: white; 
+}
+</style>
+</head>
+<body>
+
+<a href="https://desk.zoho.com/portal/nrsidelta/en/signup" target="_blank">Sign Up</a>
+</div>
+</body>
+</html>
