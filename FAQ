@@ -61,7 +61,6 @@ li a:hover:not(.active) {
 </style>
 </head>
 <body>
-<a href="https://Blog.nrsiscience.repl.co" class="button">Blog</a>
 <ul>
   <li><a class="active" href="index.html">Home</a></li>
   <!--
@@ -143,6 +142,9 @@ li a:hover:not(.active) {
 </style>
 </head>
 <body>
+<div>
+<a href="https://Blog.nrsiscience.repl.co" class="button">Blog</a>
+</div>
 <span style="font-family:Arial">
 
 

@@ -141,9 +141,10 @@ li a:hover:not(.active) {
 </style>
 </head>
 <body>
+<div>
 <a href="https://Blog.nrsiscience.repl.co" class="button">Blog</a>
 <span style="font-family:Arial">
-
+</div>
 
 
 <div class="dropdown">
@@ -234,10 +235,7 @@ Please use the links below to acess our community
 </h2>
 
 </div>
-<h5>
-This game is borrowed from: Shaikh Shamaeel, at sololearn.
-big thanks. this game will be replaced with an orginal soon.
-</h5>
+
 
 
 
