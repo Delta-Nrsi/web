@@ -8,11 +8,7 @@
 
   <link rel="shortcut icon" type="image/jpg" href="favicon.jpg"/>
 
-    <div style="background-color: #ff0000; height:30px; border:thin solid #ff0000">
-    </ul> 
-        <li style='padding-top:5px;text-align:center;font-family:Verdana'>IMPORTANT: This website is still under development. Some Information May Be Incorrect or Non-Existant</li> 
-    </ul> 
-</div>
+  
 
 <style>
 body {
