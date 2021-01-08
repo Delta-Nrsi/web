@@ -71,7 +71,7 @@ li a:hover:not(.active) {
   margin: 8px 8px;
   cursor: pointer;
 }
-</style>
+</style> 
 </head>
 <body>
 
