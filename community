@@ -82,8 +82,8 @@ li a:hover:not(.active) {
 <body>
 
 
-
-<a href="https://deltamodelrocketswebstore-vertical-nav-edition.belizairebr25.repl.co/" class="button">Light mode</a>
+<!--
+<a href="class="button">Light mode</a>
 -->
   <li><a href="Purchase">Products & purchase</a></li>
   <li><a href="contact.html">Contact us</a></li>
@@ -142,7 +142,7 @@ li a:hover:not(.active) {
 </head>
 <body>
 <div>
-<a href="https://Blog.nrsiscience.repl.co" class="button">Blog</a>
+<a href="https://Blog.nrsiscience.repl.co/" target="_blank"class="button">Blog</a>
 <span style="font-family:Arial">
 </div>
 
@@ -198,7 +198,7 @@ Community and Forums
 Please use the links below to acess our community
 </h3>
 
-<a href="https://desk.zoho.com/portal/nrsidelta/en/signin" class="button">Sign In</a>
+<a href="https://desk.zoho.com/portal/nrsidelta/en/signin" target="_blank" class="button">Sign In</a>
 
 </body>
 </html>
@@ -225,16 +225,42 @@ Please use the links below to acess our community
 <body>
 <span style="font-family:arial">
 
-<a href="https://desk.zoho.com/portal/nrsidelta/en/signup" class="button">Sign up</a>
+<a href="https://desk.zoho.com/portal/nrsidelta/en/signup"/target="_blank" class="button">Sign up</a>
 </body>
 </span>
 </html>
 <div>
-<h2>
-<a href="game.html">Game Link</a>
-</h2>
-
 </div>
+
+<hr class="rounded">
+
+<div>
+</div>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<a href="game.html" class="button">Game Link</a>
+
+
+</body>
+</html>
 
 
 <!--Start of Tawk.to Script-->
