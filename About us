@@ -182,20 +182,24 @@ li a:hover:not(.active) {
     <h1>
       About us
     </h1>
+      <hr class="rounded">
     <h3> 
       Our beginings
     </h3>
       <p>
           In 2020, some good friends and I decided to start a company that makes model rockets because my model rockets kept breaking and failing. This meant others were not having the best experiences either because the rockets were cheap and poorly designed.
       </p>
+        <hr class="rounded">
       <p> Have no fear, Delta Is here. We are here to give the world high quality model rockets for a fair price.
       </p>
+        <hr class="rounded">
    <h3>
       Why take up model rocketry?
     </h3>
       <p> If you want something fun and cool to do, try model rocketry, You will be learning and it wont feel like it.
       Model rocketry brings happiness to me, so I bring it to you.
       </p>
+        <hr class="rounded">
     <h3>
       Why it's important
       </h3>

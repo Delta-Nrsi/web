@@ -181,13 +181,16 @@ li a:hover:not(.active) {
     <h1>
       Charities
     </h1>
+        <hr class="rounded">
       <h2>
         Who we support
       </h2>
+          
         <body>
           <p>
             Here at Delta Model Rockets we believe in giving back to support humanity, education, and the environment. This is why we annually share our profits.
           </p>
+          <hr class="rounded">
           <h2>
           We support;
           </h2>

@@ -181,6 +181,7 @@ li a:hover:not(.active) {
 <h1>
 Purchasing
 </h1>
+<hr class="rounded">
 <body>
 <div>
 <h2>
@@ -199,6 +200,7 @@ Purchasing
     Please visit our merch store to buy cool, funny, rocket themed apparel and accessories!
   </p>
 </div>
+<hr class="rounded">
 <style>
 .dropbtn {
   background-color: #4CAF50;
@@ -269,6 +271,7 @@ Gofundme
 </p>
 </body>
 </div>
+<hr class="rounded">
 <head>
 <style>
 .button {
@@ -311,7 +314,7 @@ Kickstarter
 </p>
 </body>
 
-
+<hr class="rounded">
 <body>
 <h2>
 Our Store
@@ -337,7 +340,7 @@ Our Store
 
 </body>
   <html>
-
+<hr class="rounded">
   <span style="font-family:Arial">
   <h1>
   Info 
@@ -345,9 +348,11 @@ Our Store
     <h2>
       Buying our rockets
     </h2>
+          <hr class="rounded">
         <p>
         Our Jupiter rocket was designed with quality and safety in mind. This rocket brings customizability to the table. This rocket was intended for usage of ages 12-70 bringing a fun family experience to all. This rocket is capable of being ordered in different height variants so if you want a big rocket, you can get a big rocket and the same for a small rocket. All Jupiter rockets 6ft and under use three 24mm Estes Motors that pack a punch, the motor holder tilts the motors outward for a more stable and safe flight. We will most likely make all plastic parts in the house.  We have taken everything into consideration, so if you follow the instructions; all you'll have to worry about is getting a good angle for the flight.
       </p>
+        <hr class="rounded">
       <h3>
         We will have an order form on this website (Coming soon)
       </h3>
@@ -356,7 +361,7 @@ Our Store
               Expect some changes and your orders are highly likely to arrive from April-May 2021.
               Do not worry because the best time for launching rockets is between May and November.
             </p>
-
+                    <hr class="rounded">
                   <h3>
         What is/isn't included in the kit?
       </h3>

@@ -190,6 +190,7 @@ s0.parentNode.insertBefore(s1,s0);
 <h1>
   Frequently Asked Questions
 </h1>
+        <hr class="rounded">
       <h3>
         When will my order arrive?
       </h3>
@@ -197,6 +198,7 @@ s0.parentNode.insertBefore(s1,s0);
         Know that this business is still in the startup phase. We are working hard to make sure that you get your rockets in the near future. We estimate that they will begin shipping in April or may of 2021.
         Delivery time heavily depends on location.
       </p>
+          <hr class="rounded">
       <h3>
         What is/isn't included in the kit?
       </h3>
