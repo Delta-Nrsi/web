@@ -1,51 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial;
-  color: white;
-}
-
-.split {
-  height: 100%;
-  width: 30%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.left {
-  left: 0;
-
-}
-
-.right {
-  right: 0;
-
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.centered img {
-  width: 150px;
-  border-radius: 50%;
-}
-</style>
-</head>
-<body>
-
-<div class="split left">
-<!--left side-->
 
   <title>Products - Delta Model Rockets</title>
 
@@ -218,7 +170,7 @@ li a:hover:not(.active) {
 </ul>
 
 <div style="margin-left:25%;padding:1px 16px;height:1000px;">
-<div style="margin-right:45%;padding:1px 16px;height:1000px;">
+
       <style>
         *{
             text-align: left;
@@ -226,150 +178,6 @@ li a:hover:not(.active) {
 
         </style>
         
-<style>
-/* Style the body */
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
-/* Header/Logo Title */
-.header {
-  padding: 20px;
-  text-align: center;
-  background: red;
-  color: white;
-  font-size: 18px;
-}
-
-/* Page Content */
-.content {padding:10px;}
-</style>
-</head>
-<body>
-
-
-
-
-
-</body>
-  <html>
-
-  <span style="font-family:Arial">
-  <h1>
-  Info 
-  </h1>
-    <h2>
-       Our rockets
-    </h2>
-        <p>
-        Our Jupiter rocket was designed with quality and safety in mind. This rocket brings customizability to the table. This rocket was intended for usage of ages 12-70 bringing a fun family experience to all. This rocket is capable of being ordered in different height variants so if you want a big rocket, you can get a big rocket and the same for a small rocket. All Jupiter rockets 6ft and under use three 24mm Estes Motors that pack a punch, the motor holder tilts the motors outward for a more stable and safe flight. We will most likely make all plastic parts in the house.  We have taken everything into consideration, so if you follow the instructions; all you'll have to worry about is getting a good angle for the flight.
-      </p>
-      <h3>
-        We will have an order form on this website (Coming soon)
-      </h3>
-            <p>
-              <div>This business is still in development.</div>
-              Expect some changes and your orders are highly likely to arrive from April-May 2021.
-              Do not worry because the best time for launching rockets is between May and November.
-            </p>
-
-                  <h3>
-        What is/isn't included in the kit?
-      </h3>
-      <h4>
-      What isn't included
-      </h4>
-      <p>
-        Since we are just starting up, our jupiter kit does not include some key ingredients, these are the engines, the launch controller, the parachute and the launch pad.
-        Our rockets were designed for 24 mm estes rocket motors. please only use the ones listed below;
-        </p>
-
-          <div>
-           <a href="https://estesrockets.com/product/001692-e12-4-engines/" target="_blank">Estes E12-4</a>
-          </div>
-          <div>
-           <a href="https://estesrockets.com/product/001693-e12-6-engines/" target="_blank">Estes E12-6</a>
-          </div>
-          <p> Get engines cheaper and without shipping costs at your local Hobby Lobby!
-          </p>
-          <p>
-            You will need three of each engine per launch along with the plugs and igniters(included in the estes engine packs)
-          </p>
-          <p>
-            You will need an <a href="https://estesrockets.com/product/002240-pro-series-ii-launch-controller/" target="_blank">Estes pro series II luanch controller</a>
-          </p>
-          <p>
-            You will also need an <a href="https://estesrockets.com/product/002273-pro-series-ii-30-inch-nylon-parachute/" target="_blank">Estes Nylon parachute.</a>
-          </p>
-          <p> 
-            Lastly, you will need an <a href="https://estesrockets.com/product/002238-porta-pad-e-launch-pad/" target="_blank">Estes Porta Pad-E Luanch Pad</a>
-          </p>
-          <h4>
-            What is included in the kit?
-          </h4>
-          <p>
-            We include the complex PETG plastic tri-engine mount, An innovative and cool parachute deployment room, the nosecone, body tube connecters, body tubes, an instruction manual with qr codes for video versions of the instructions, and any exteras you decide to ask for(decal stickers, pre-painted tubes, t-shirts, ect.)
-            </p>
-            <p>
-            Thank You!!
-            </p>
-
-          <!DOCTYPE html>
-<html>
-<head>
-<style>
-.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #202020;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  color: white;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-</style>
-<div>
-</div>
-<div>
-</div>
-</head>
-
-
-
-<div class="split right">
-<!--Right side-->
 <h1>
 Purchasing
 </h1>
@@ -526,6 +334,176 @@ Our Store
 
 
 
+
+</body>
+  <html>
+
+  <span style="font-family:Arial">
+  <h1>
+  Info 
+  </h1>
+    <h2>
+      Buying our rockets
+    </h2>
+        <p>
+        Our Jupiter rocket was designed with quality and safety in mind. This rocket brings customizability to the table. This rocket was intended for usage of ages 12-70 bringing a fun family experience to all. This rocket is capable of being ordered in different height variants so if you want a big rocket, you can get a big rocket and the same for a small rocket. All Jupiter rockets 6ft and under use three 24mm Estes Motors that pack a punch, the motor holder tilts the motors outward for a more stable and safe flight. We will most likely make all plastic parts in the house.  We have taken everything into consideration, so if you follow the instructions; all you'll have to worry about is getting a good angle for the flight.
+      </p>
+      <h3>
+        We will have an order form on this website (Coming soon)
+      </h3>
+            <p>
+              <div>This business is still in development.</div>
+              Expect some changes and your orders are highly likely to arrive from April-May 2021.
+              Do not worry because the best time for launching rockets is between May and November.
+            </p>
+
+                  <h3>
+        What is/isn't included in the kit?
+      </h3>
+      <h4>
+      What isn't included
+      </h4>
+      <p>
+        Since we are just starting up, our jupiter kit does not include some key ingredients, these are the engines, the launch controller, the parachute and the launch pad.
+        Our rockets were designed for 24 mm estes rocket motors. please only use the ones listed below;
+        </p>
+
+          <div>
+           <a href="https://estesrockets.com/product/001692-e12-4-engines/" target="_blank">Estes E12-4</a>
+          </div>
+          <div>
+           <a href="https://estesrockets.com/product/001693-e12-6-engines/" target="_blank">Estes E12-6</a>
+          </div>
+          <p> Get engines cheaper and without shipping costs at your local Hobby Lobby!
+          </p>
+          <p>
+            You will need three of each engine per launch along with the plugs and igniters(included in the estes engine packs)
+          </p>
+          <p>
+            You will need an <a href="https://estesrockets.com/product/002240-pro-series-ii-launch-controller/" target="_blank">Estes pro series II luanch controller</a>
+          </p>
+          <p>
+            You will also need an <a href="https://estesrockets.com/product/002273-pro-series-ii-30-inch-nylon-parachute/" target="_blank">Estes Nylon parachute.</a>
+          </p>
+          <p> 
+            Lastly, you will need an <a href="https://estesrockets.com/product/002238-porta-pad-e-launch-pad/" target="_blank">Estes Porta Pad-E Luanch Pad</a>
+          </p>
+          <h4>
+            What is included in the kit?
+          </h4>
+          <p>
+            We include the complex PETG plastic tri-engine mount, An innovative and cool parachute deployment room, the nosecone, body tube connecters, body tubes, an instruction manual with qr codes for video versions of the instructions, and any exteras you decide to ask for(decal stickers, pre-painted tubes, t-shirts, ect.)
+            </p>
+
+          <!DOCTYPE html>
+<html>
+<head>
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #202020;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+<div style="margin-left:60%;padding:1px 16px;height:1000px;">
+<body>
+<div>
+
+</div>
+
+
+
+  </div>
+</div>
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #202020;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+<div>
+  <p>
+  </p>
+</div>
+
+
+
+
+
 </body>
 </html>
 
@@ -542,10 +520,3 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
-  </div>
-</div>
-  </div>
-</div>
-     
-</body>
-</html> 
