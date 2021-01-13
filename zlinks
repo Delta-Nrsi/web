@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<title>DMR Employee page</title>
+<style>
+*{
+  font-family: arial;
+  color: #202020;
+  background: #f1f1f1;
+}
+</style>
+ </head>
+<body>
+<h1>
+  employee page
+</h1>
+<h4>
+Store:
+</h4>
+<p>
+ <a herf="https://my.ecwid.com/store/44445023#dashboard:wizard=tiles">ecwid store control</a>
+</p>
+<p>
+<a herf="http://authpro.com/auth/deltanrsi">deltanrsi</a>
+</p>
+<!-- Copy and Paste this link -->
+
+
+</body>
+</html>
+<script>
+
+</script>
