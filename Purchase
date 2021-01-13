@@ -1,4 +1,4 @@
-  <title>Products - Delta Model Rockets</title>
+ <title>Products - Delta Model Rockets</title>
 
 
 
@@ -169,7 +169,7 @@ li a:hover:not(.active) {
 </ul>
 
 <div style="margin-left:25%;padding:1px 16px;height:1000px;">
-<div style="margin-right:45%;padding:1px 16px;height:1000px;">
+
       <style>
         *{
             text-align: left;
@@ -177,37 +177,169 @@ li a:hover:not(.active) {
 
         </style>
         
+<h1>
+Purchasing
+</h1>
+<hr class="rounded">
+<body>
+<div>
+<h2>
+  Merchandice
+</h2>
+
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Our merch store!</button>
+  <div class="dropdown-content">
+  <a href="https://www.bonfire.com/store/bricians-booming-masks/" target="_blank">click here to go to our merch page</a>
+
+  </div>
+    <p>
+    Please visit our merch store to buy cool, funny, rocket themed apparel and accessories!
+  </p>
+</div>
+<hr class="rounded">
 <style>
-/* Style the body */
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
-/* Header/Logo Title */
-.header {
-  padding: 20px;
-  text-align: center;
-  background: red;
+.dropbtn {
+  background-color: #4CAF50;
   color: white;
-  font-size: 18px;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-/* Page Content */
-.content {padding:10px;}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #202020;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+<div>
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+<h2>
+Gofundme
+</h2>
+<a href="https://www.gofundme.com/f/delta-model-rockets" class="button">Gofundme</a>
+<p>
+  We are using gofund me to help start this business. It would men a lot to us if you donated to help fund the startup phase of this business.
+</p>
+</body>
+</div>
+<hr class="rounded">
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<head>
+<style>
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 </style>
 </head>
 <body>
+<h2>
+Kickstarter
+</h2>
+<a href="#" class="button">Kickstarter(not avaliable yet)</a>
+<p>
+  Here at Delta Model Rockets, we are a new business who needs a little help clearing the tower. Help us do that with kickstarter. There you can order products from us months in advance to fund the purchase of materials and other startup costs. Without this kickstarter, we may not be able to become a buissness so this means a lot to us. If you buy our products with kickstarter, the first 25 people get a free DMR drawstring bag, so dont miss out!!
+</p>
+</body>
 
-<div class="header">
-  <p>We do not have a checkout form, but we are on kickstarter, visit us there to pre-order your rocket!!</p>
+<hr class="rounded">
+<body>
+<h2>
+Our Store
+</h2>
+<a href="store.html" class="button">Model Rocket Store (Not Avaliable Yet)</a>
+<p>
+  This is where you will be able to buy model rockets directly from us.
+</p>
+</body>
+
+</head>
+<body>
+<div>
+  <p>
+  Thank You!!
+  </p>
 </div>
+
+
+
 
 
 
 </body>
   <html>
-
+<hr class="rounded">
   <span style="font-family:Arial">
   <h1>
   Info 
@@ -215,9 +347,11 @@ body {
     <h2>
       Buying our rockets
     </h2>
+          <hr class="rounded">
         <p>
         Our Jupiter rocket was designed with quality and safety in mind. This rocket brings customizability to the table. This rocket was intended for usage of ages 12-70 bringing a fun family experience to all. This rocket is capable of being ordered in different height variants so if you want a big rocket, you can get a big rocket and the same for a small rocket. All Jupiter rockets 6ft and under use three 24mm Estes Motors that pack a punch, the motor holder tilts the motors outward for a more stable and safe flight. We will most likely make all plastic parts in the house.  We have taken everything into consideration, so if you follow the instructions; all you'll have to worry about is getting a good angle for the flight.
       </p>
+        <hr class="rounded">
       <h3>
         We will have an order form on this website (Coming soon)
       </h3>
@@ -226,7 +360,7 @@ body {
               Expect some changes and your orders are highly likely to arrive from April-May 2021.
               Do not worry because the best time for launching rockets is between May and November.
             </p>
-
+                    <hr class="rounded">
                   <h3>
         What is/isn't included in the kit?
       </h3>
@@ -314,15 +448,10 @@ body {
 <div style="margin-left:60%;padding:1px 16px;height:1000px;">
 <body>
 <div>
-  <p>
-    Please visit our merch store to buy cool, funny, rocket themed apparel and accessories!
-  </p>
+
 </div>
 
-<div class="dropdown">
-  <button class="dropbtn">Our merch store!</button>
-  <div class="dropdown-content">
-  <a href="https://www.bonfire.com/store/bricians-booming-masks/" target="_blank">click here to go to our merch page</a>
+
 
   </div>
 </div>

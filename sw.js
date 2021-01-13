@@ -1,3 +1,4 @@
+
 var version = "v2.0.2";
 var swPath;
 var urlObject = new URL(location);
@@ -22,4 +23,3 @@ else {
     swPath = host + version + "/sw.js";
 }
 importScripts(swPath);
-
